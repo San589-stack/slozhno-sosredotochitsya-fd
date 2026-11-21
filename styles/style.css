@@ -181,7 +181,7 @@
 }
 
 .card__text a:hover {
-  border-bottom: 1px solid var(--color-text-main, #ffffff);
+  border-bottom: 1px solid var(--color-text, #f1b2ce);
 }
 
 .card__text a:focus {
@@ -189,7 +189,7 @@
 }
 
 .card__text a:focus-visible {
-  outline: 1px solid var(--color-text-main, #ffffff);
+  outline: 1px solid var(--color-text, #f1b2ce);
 }
 
 .section__column {
@@ -301,14 +301,11 @@
   }
 
   .section_type_why .section__title {
-  max-width: 236px;
-}
-
-  .gallery {
-    grid-template-columns: 1fr;
+    max-width: 236px;
   }
 
   .gallery {
+    grid-template-columns: 1fr;
     gap: 20px;
   }
 
@@ -387,6 +384,7 @@
 
   .gallery {
     grid-template-columns: 1fr;
+  }
 
   .header__theme-menu-list {
     flex-direction: row;

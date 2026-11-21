@@ -5,16 +5,13 @@
 */
 
 :root.theme-light {
-  --color-background: #ffd6e7;
+  --color-background: #fff1f7;
   --color-accent: #FF8DCB;
-  --color-text: #2d2d2d;
-  --color-text-main: #1b1919;
+  --color-text: #353430;
   --color-title: #FFC2E6;
   --color-bg-header-text: #ff8dcb;
   --color-menu: #353430;
   --color-border: #353430;
-  --color-background: #fff1f7;
-  --color-text: #353430;
   --color-text-on-accent: #353430;
   --color-section-title: #353430;
   --bg-image: url(../images/cover-image-light.png);
@@ -24,22 +21,15 @@
   display: none;
 }
 
-:root.theme-light .header__title {
-  text-shadow: 4px 4px 0 #FF8DCB;
-}
-
 @media (prefers-color-scheme: light) {
   :root {
-    --color-background: #ffd6e7;
+    --color-background: #fff1f7;
     --color-accent: #FF8DCB;
-    --color-text: #2d2d2d;
-    --color-text-main: #1b1919;
+    --color-text: #353430;
     --color-title: #FFC2E6;
     --color-bg-header-text: #ff8dcb;
     --color-menu: #353430;
     --color-border: #353430;
-    --color-background: #fff1f7;
-    --color-text: #353430;
     --color-text-on-accent: #353430;
     --color-section-title: #353430;
     --bg-image: url(../images/cover-image-light.png);
@@ -47,9 +37,5 @@
 
   :root .header__rec {
     display: none;
-  }
-
-  :root .header__title {
-    text-shadow: 4px 4px 0 #FF8DCB;
   }
 }
